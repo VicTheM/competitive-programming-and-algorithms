@@ -16,3 +16,45 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+# Competitive Programming specific
+# Compiled binaries
+*.exe
+*.o
+*.out
+a.out
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Language specific
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Java
+*.class
+*.jar
+
+# C++
+*.gch
+*.pch
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Test files (optional - remove if you want to commit test outputs)
+test_output.txt
+debug.txt
